@@ -19,7 +19,7 @@ class BaseController extends AbstractController
  ]);
  }
 
- #[Route('/contact', name: 'app_contact')]
+ #[Route('/ajout-cafe', name: 'app_contact')]
  public function contact(Request $request, EntityManagerInterface $em): Response
  {
     $cafe = new Cafe();

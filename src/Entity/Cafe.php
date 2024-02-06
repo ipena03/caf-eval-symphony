@@ -56,7 +56,7 @@ class Cafe
 
     public function getPays(): ?string
     {
-        return $this->pays;
+        return $this->pays ;
     }
 
     public function setPays(string $pays): static
